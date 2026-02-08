@@ -1,11 +1,15 @@
 // we have a switch operator in java which helps to identify by the case by case it is easy when compare to if-else...
 //EXAMPLE is when user gives a 1 it should print a monday.. same for all the weeks ..
+import java.util.Scanner;
 class Switch
 {
   public static void main(String args[])
   {
-    int num=5;
-
+   // System.out.println("Pls Enter vaild Input.. "+ num);
+    Scanner sc =new Scanner(System.in);
+    int num=sc.nextInt();
+    //int num=5;
+    //System.out.println("Pls Enter vaild Input.. "+ num);
     switch(num)
     {
       case 1:
